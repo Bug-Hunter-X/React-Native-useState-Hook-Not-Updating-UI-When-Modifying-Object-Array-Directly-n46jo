@@ -1,0 +1,1 @@
+This error occurs when using the useState hook in React Native with an object or array as the initial state.  If you modify the state directly (e.g., state.property = newValue), React won't detect the change, and the UI won't update. This is because the object/array reference remains the same, only its contents change.
